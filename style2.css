@@ -1,0 +1,135 @@
+body{
+    color:#40514E;
+    margin: 0;
+    text-align:center;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.top-container{
+    background-color: rgb(211, 254, 254);
+    position: relative; 
+    padding-top:60px;
+    /* margin-top: 0px; */
+    /* height:200px;
+    width:200px;
+    position:absolute;
+    display: inline-block;
+    left:0px; */
+    /* margin-top:0; */
+    /* border:10px solid;
+    padding:20px; */
+    
+}
+div h1 {
+    margin-top:0;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size:4.625rem;
+     /* 1em = 16px = 100% 
+     [em and %] is dynamic when screen font size change then they will be also change and they also depends upon on its parent font size.
+
+     but [px] is static therefore it doesnt depend on windows font size
+     
+     ###[rem] root em is dynamic when screen font size change then they will be also change but they dont depends upon on its parent font size*/
+     margin:50px auto 0 auto;
+   
+}
+.head{
+    margin-top:40px;
+    color:#66BFBF;
+    line-height: 2;
+}
+h2{
+    font-size:2.1rem;
+    color:#66BFBF;
+    font-weight: normal;
+}
+h3{
+    color:#11999E;
+
+}
+.mid-container{
+
+
+}
+p{
+    line-height: 2;
+}
+.bottom-container{
+    background-color:aqua;
+    padding:15px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color:#7a7b7b; 
+    margin:20px 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right:290px;
+    top:25px;
+}
+
+.my-img{
+    width:150px
+}
+.profile{
+    margin:45px 0;
+}
+.code-img{
+    width:25%;
+    float:left;
+    margin-right:45px;
+}
+.bottom-img{
+    width:25%;
+    float:right;
+    margin-left:45px;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height:2;
+}
+
+.skills{
+      margin:55px;
+}
+.contact-me{
+    margin:55px;
+}
+
+hr{
+    border-style:none;
+    border-top-style:dotted;
+    width:8%;
+    border-width:11px;
+    border-color: rgb(197, 202, 205);
+}
+.diclaimer{
+    width:40%;
+    margin:30px auto 50px;
+}
+.btn{
+    color:rgb(69, 76, 79);
+    text-decoration: none;
+    font-size:20px;
+    padding:10px 10px;
+    border-radius:25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgb(183, 239, 239);
+    /* border:2px solid black; */
+}
+.btn:hover{
+    color:rgb(163, 162, 162);
+    background-color: rgb(206, 254, 254);
+}
